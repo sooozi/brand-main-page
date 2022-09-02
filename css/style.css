@@ -1,0 +1,105 @@
+
+*{
+    font-family: 'Poppins', 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: 1.6;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+	border:0;
+	max-width:100%;
+	vertical-align: middle;
+}
+a{
+    color:#fff;
+}
+a, a:hover, a:focus{
+	text-decoration:none;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+span, em, strong, b{
+	font-size:100%;
+	color:inherit;
+	font-family:inherit;
+}
+button{
+    outline: none;
+    border: 0;
+    background: none;
+}
+ul, ol, li {
+	list-style:none;
+}
+/*Removes default chrome and safari style*/
+select{ 
+	-webkit-appearance: none; 
+	-moz-appearance: none;
+	appearance: none;
+}
+select::-ms-expand {
+   display: none;          
+}
+table{
+	border-collapse:collapse;
+}
+input[type="text"]{border:0; }
+.dis-no{display:none !important;}
+.vis-no{visibility:hidden !important;}
+
+/* 공통 */
+.flex_box {
+    display: flex;
+}
+.flex_a {
+    display: flex;
+    align-items: center;
+}
+.flex_aj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* 콘텐츠 시작 */
+body {
+    background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISDxUSEhIVFRUVDxUPFRUVFRUVFRUVFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDi0ZFRkrKystNy0tKy0rLTcrKysrKysrKy03Ky0rLSsrKysrKys3KysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAFxABAQEBAAAAAAAAAAAAAAAAABEBMf/EABcBAQEBAQAAAAAAAAAAAAAAAAABBAP/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDpQDC7kFAIKRRFBAAxRdRQAABFAEVAFgAkBQIgoJAAEBASKAiKCpqKAAAYqKIoigKgooEAABQwAxRAEUABAMVAAUAiKgAIBoqICKAmggoaAIpQDFRRBUUBYgooACoAqoAAAAAAAAgKgApqKCAAIAAIgEAUQgCBAFDARcVACKAKIKNZogCgAAgKIACoAAAAACghpABAQNQoBAQVUVNBBQEqouaILiKAqAKrNVQXNRQFRQIJQDdKAGgaAIAoICgAIABpoggACAKrKgILQGVTARoQBVzUwBdBQAzRRUDQUQBU1UAAoAoCKggaAACAGgACABSipDdAAAGcaZWCLisqCgAKigAtAEoChooAlQUEAVAFEAVNAAogLuoUACgBokFNRQASAItQgKuIURqomNUCiLoCphQURQBFAEKC0ACgAAgCpQBABU00FUQA0AAQABAQQBpWVBVZWgpiVaIaAC1AoLTEAWoaAogC1AoC1NSgpRBVTRQBMNAqoAAAhVSgCUQZVFAxWWgUxBRpNM0BRAFoIDRqUAWIURUQFUogGNM0Bd1KYAuCFBaItARNWgAlBahoAgIIJhQVcZWgtVnFBRlQa0Zoo1umJgClQBRCgUEgKJRBaYCgtZUFEAWlNZqDVQQF1EWgUQFUQBilARc1QAzV0AMKALiVQBaAIcABFASlABKAFFAFoAUoAAAm6bqgqAAJugCKAP/Z);
+    background-size: cover;
+}
+header {
+    text-align: center;
+    border: 1px solid red;
+}
+.coupon_wrap {
+    background-color: #ffda17;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    line-height: 1;
+}
+.logo_wrap img {
+    width: 15%;
+}
+
+
+.section_wrap {
+    border: 1px solid blue;
+    height: 50vh;
+}
+
+
+
+footer {
+    border: 1px solid blueviolet;
+    height: 10vh;
+}
