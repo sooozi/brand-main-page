@@ -67,9 +67,32 @@ input[type="text"]{border:0; }
     align-items: center;
     justify-content: center;
 }
-
-
-
+.vertical_txt {
+    writing-mode: vertical-rl;
+    display: inline-block;
+    transform: rotate(180deg);
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    color: #37355585;
+}
+.inner_cont {
+    background: #c6c6c680;
+    width: 20%;
+    height: 45vh;
+}
+.mid_cont {
+    margin: 0 10px;
+    width: 60%;
+    overflow: hidden;
+}
+.txt_box {
+    padding: 0 20px;
+}
+.txt_box .tit_txt {
+    font-size: 65px;
+    font-weight: bold;
+}
 
 /* 콘텐츠 시작 */
 body {
@@ -78,7 +101,15 @@ body {
 }
 header {
     text-align: center;
-    border: 1px solid red;
+}
+.outline{
+    border: 1px solid #c2baaaa8;
+    margin: 10px;
+    padding: 15px;
+}
+.header_inner {
+    background-color: #010130;
+    padding: 4.5vh 0;
 }
 .coupon_wrap {
     background-color: #ffda17;
@@ -87,19 +118,54 @@ header {
     padding: 10px;
     line-height: 1;
 }
+.logo_wrap {
+    margin-bottom: 3vh;
+}
 .logo_wrap img {
     width: 15%;
+    filter: brightness(1500%);
+}
+.nav_wrap {
+    color: white;
+}
+.nav_wrap .nav_list {
+    gap: 2vw;
+}
+.nav_wrap .nav_list .nav_cont {
+    padding: 5px 10px;
+    background-color: #fff5e1;
+    border-radius: 10px;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    width: 10%;
+}
+.img_wrap img {
+    height: 100%;
 }
 
-
-.section_wrap {
-    border: 1px solid blue;
-    height: 50vh;
-}
 
 
 
 footer {
-    border: 1px solid blueviolet;
     height: 10vh;
+}
+footer .inner_cont_wrap .left_cont_wrap, 
+footer .inner_cont_wrap .right_cont_wrap {
+    width: 50%;
+}
+footer .inner_cont_wrap .left_cont_wrap .img_wrap {
+    height: 20vh;
+}
+footer .inner_cont {
+    height: auto;
+    background: none;
+}
+footer .logo_cont {
+    font-size: 50px;
+    font-weight: bold;
+}
+footer .btm_wrap {
+    align-items: baseline;
+    justify-content: space-between;
 }
